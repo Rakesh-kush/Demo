@@ -1,0 +1,122 @@
+*{ margin:0px;padding:0px; }
+
+
+/*-------------------------------- Column Part ---------------------------------------*/
+
+.row-part { width:100%;height:170px ;margin-top:10px; }
+
+.col-part { width:100%;height:170px auto; }
+
+#a { margin-left:0px; margin-right:0px;  }
+
+.col-sm-2 { width:100%;height:80px;margin-top:30px;  }
+
+.col-sm-8 { width: 100%; margin-left:40px;margin-top:50px;line-height:15px; }
+  
+.row-part1 { width:100%;margin-top:10px; justify-content:center;height:170px; } 
+
+#p { font-size:23px;font-weight:bold;color:white; }
+
+#p1 { font-size:12px;font-weight:bold;color:white; }
+
+/*---------------------------------- Column Part End -----------------------------------------*/
+
+/*--------------------------------- Marquee Part --------------------------------------------*/
+
+#con1 { height:auto;width:100%;margin-top:50px; }
+
+.col-sm-6 #read { float:right;font-size:20px;color:green;font-weight:bold; }
+
+.col-sm-6 i { transform:rotate(270deg);margin-top:10px;color:green; }
+
+.col-sm-6 label { color:grey;padding-top:10px;font-size:20px;font-weight:bold; }
+
+.col-sm-6 ul li a { text-decoration:none;list-style:none; }
+
+/*--------------------------- Marquee Part End -----------------------------------------*/
+
+/*-------------------------------Carousel Part Second --------------------------------*/
+
+#event { background-color:#d40119; width:100%; height: 50px; text-align:center; }
+
+.abiut{ width: 100%; height: 430px; background-color: cyan; padding-top:15px; padding-left: 30px;}
+
+.row-carousel{ height: 400px; width: 100%; display: flex; justify-content: space-around;}
+
+.col-carousel{ width: 100%; height: 400px;box-shadow:15px solid black; }
+
+#imge{ width: 100%; height: 400px; border:4px solid black;}
+
+/*--------------------------- Carousel Part Second End ------------------------------*/
+
+
+/*------------------------------ Highlight Part ------------------------------------*/
+
+ .contain { padding-bottom:50px; }
+
+ .head { width:100%;height:50px;background-color:green;padding-top:10px;
+         align-content:center; color:white;font-size:25px;font-weight:bold; }
+
+  .row-highlight { width:100%;padding-left:0px;margin-left:0px;height:100px;text-align:center; }
+
+ .col-highlight { padding-top:30px;color:black;font-size:15px;height:120px; }
+
+ .col-highlight a { color:black;font-weight:bold;text-decoration:none; }
+
+/*------------------------------ Highlights Part End -------------------------------*/
+
+
+
+
+
+/*------------------------------- Marquee Part End -----------------------------------------*/
+
+
+
+
+@media(max-width:786px)
+{
+
+.row-part{ height:auto;width:100%;padding-left:35px;}
+
+.col-part{ width:100%;height:150px; }
+
+.col-sm-2{ width:40%; }
+
+.col-sm-8{ width:30%;margin-left:120px;margin-top:-70px; }
+  
+.row-part1{ height:auto;width:100%;padding-left:35px;}  
+
+
+
+
+.abiut{ width: 100%; height: auto; padding-top:15px; padding-left: 30px;}
+
+.row-carousel{ height:auto; width: 100%; display: flex; justify-content: space-around;padding-bottom:20px;}
+ 
+#imge{ width: 100%; height: 395px; border:4px solid black;}
+
+ 
+.head { width:100%;margin-left:0px; }
+
+.row-highlight { width:100%;height:auto;text-align:center; }
+
+.col-highlight { width:100%;padding-top:30px;color:black;font-size:15px;height:120px; }
+
+.col-highlight a { color:black;font-weight:bold;text-decoration:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
